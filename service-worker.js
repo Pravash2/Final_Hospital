@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Pravash2/findHospital.git/precache-manifest.cf769117309c4726599983a01fb60fb0.js"
+  "/findHospital/precache-manifest.e3747d8daa27f25a244cf5da99ccbbce.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/Pravash2/findHospital.git/index.html", {
+workbox.routing.registerNavigationRoute("/findHospital/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
